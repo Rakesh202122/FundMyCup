@@ -2,7 +2,7 @@ import mongoose from "mongoose"
 
 const connectDB = async () => {
     try {
-        const conn = await mongoose.connect(`mongodb+srv://FundMyCup:FundMyCup62840@fundmycup.xgevmfq.mongodb.net/?retryWrites=true&w=majority&appName=FundMyCup/fundmycup`, {
+        const conn = await mongoose.connect(process.env.MONGO_URI, {
         // const conn = await mongoose.connect(`mongodb://127.0.0.1:27017/chai`, {
             useNewUrlParser: true,
         });
