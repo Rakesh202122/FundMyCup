@@ -27,19 +27,6 @@ const Footer = () => {
         </div>
         <hr className="my-6 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <span className="block text-sm text-gray-500 sm:text-center dark:text-white">Copyright &copy; {currentYear} <a href="/" className="hover:underline">FundMyCup™</a> - All Rights Reserved!</span>
-          <div className='flex flex-col items-center gap-3'>
-        <div className='text-sm md:text-base'>Follow me on</div>
-        <div className='flex gap-4 items-center'>
-          <a href="https://github.com/namankoolwal" target='_blank' className='border border-zinc-400 py-2 px-3 rounded-full hover:bg-gray-800 transition-colors flex items-center gap-2'>
-            <PiGithubLogoBold className='w-5 h-5'/>
-            <span className='hidden md:inline'>GitHub</span>
-          </a>
-          <a href="https://linkedin.com/in/naman-khandelwal-568971189" target='_blank' className='border border-zinc-400 py-2 px-3 rounded-full hover:bg-gray-800 transition-colors flex items-center gap-2'>
-            <ImLinkedin2 className='w-5 h-5'/>
-            <span className='hidden md:inline'>LinkedIn</span>
-          </a>
-        </div>
-      </div>
     </div>
 </footer>
 
